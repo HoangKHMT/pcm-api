@@ -1729,7 +1729,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "http",
-        "description": "Enter 'Bearer' [space] and then your valid token.",
+        "description": "Enter: Bearer {your JWT token}",
         "scheme": "bearer",
         "bearerFormat": "JWT"
       }

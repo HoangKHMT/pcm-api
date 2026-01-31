@@ -37,38 +37,33 @@ namespace PCM.Api.Data
 				.HasForeignKey(t => t.TransactionCategoryId)
 				.OnDelete(DeleteBehavior.Cascade);
 
-			// ❗ FIX CHUẨN LỖI CASCADE LOOP
-			// ===== MATCH RELATIONSHIPS (FIX CASCADE) =====
+			// FIX CASCADE LOOP
 			builder.Entity<Match>()
-				.HasOne<Member>()
-				.WithMany()
+				.HasOne<Member>().WithMany()
 				.HasForeignKey(m => m.Team1_Player1Id)
 				.OnDelete(DeleteBehavior.Restrict);
 
 			builder.Entity<Match>()
-				.HasOne<Member>()
-				.WithMany()
+				.HasOne<Member>().WithMany()
 				.HasForeignKey(m => m.Team1_Player2Id)
 				.OnDelete(DeleteBehavior.Restrict);
 
 			builder.Entity<Match>()
-				.HasOne<Member>()
-				.WithMany()
+				.HasOne<Member>().WithMany()
 				.HasForeignKey(m => m.Team2_Player1Id)
 				.OnDelete(DeleteBehavior.Restrict);
 
 			builder.Entity<Match>()
-				.HasOne<Member>()
-				.WithMany()
+				.HasOne<Member>().WithMany()
 				.HasForeignKey(m => m.Team2_Player2Id)
 				.OnDelete(DeleteBehavior.Restrict);
 
-			// Match → Challenge (1 Challenge có nhiều Match)
 			builder.Entity<Match>()
 				.HasOne(m => m.Challenge)
 				.WithMany()
 				.HasForeignKey(m => m.ChallengeId)
 				.OnDelete(DeleteBehavior.SetNull);
+
 			builder.Entity<Participant>()
 				.HasOne(p => p.Challenge)
 				.WithMany(c => c.Participants)
@@ -76,8 +71,7 @@ namespace PCM.Api.Data
 				.OnDelete(DeleteBehavior.Cascade);
 
 			builder.Entity<Participant>()
-				.HasOne<Member>()
-				.WithMany()
+				.HasOne<Member>().WithMany()
 				.HasForeignKey(p => p.MemberId)
 				.OnDelete(DeleteBehavior.Restrict);
 		}

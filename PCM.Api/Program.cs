@@ -1,6 +1,6 @@
 ﻿using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -10,101 +10,23 @@ using PCM.Api.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-
 // ================= DATABASE =================
 builder.Services.AddDbContext<AppDbContext>(options =>
-	options.UseSqlServer(
-		builder.Configuration.GetConnectionString("DefaultConnection")));
-
-
+	options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // ================= IDENTITY =================
-builder.Services.AddIdentity<AppUser, IdentityRole>()
-	.AddEntityFrameworkStores<AppDbContext>()
-	.AddDefaultTokenProviders();
-
-
+builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+{
+	options.Password.RequireDigit = false;
+	options.Password.RequireUppercase = false;
+	options.Password.RequireLowercase = false;
+	options.Password.RequireNonAlphanumeric = false;
+	options.Password.RequiredLength = 6;
+})
+.AddEntityFrameworkStores<AppDbContext>()
+.AddDefaultTokenProviders();
 
 // ================= JWT AUTH =================
-builder.Services.AddAuthentication(options =>
-{
-	options.DefaultAuthenticateScheme = "JwtBearer";
-	options.DefaultChallengeScheme = "JwtBearer";
-})
-.AddJwtBearer("JwtBearer", options =>
-{
-	options.TokenValidationParameters = new TokenValidationParameters
-	{
-		ValidateIssuer = false,
-		ValidateAudience = false,
-		ValidateLifetime = true,
-		ValidateIssuerSigningKey = true,
-		IssuerSigningKey = new SymmetricSecurityKey(
-		Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
-
-	};
-});
-
-
-
-// ================= CORS =================
-builder.Services.AddCors(options =>
-{
-	options.AddPolicy("AllowAll",
-		policy => policy.AllowAnyOrigin()
-						.AllowAnyHeader()
-						.AllowAnyMethod());
-});
-
-
-
-// ================= JSON LOOP FIX =================
-builder.Services.AddControllers()
-	.AddJsonOptions(options =>
-	{
-		options.JsonSerializerOptions.ReferenceHandler =
-			ReferenceHandler.IgnoreCycles;
-	});
-
-
-
-// ================= SWAGGER + JWT =================
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(options =>
-{
-	options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
-	{
-		Title = "PCM API",
-		Version = "v1"
-	});
-
-	options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
-	{
-		Name = "Authorization",
-		Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
-		Scheme = "bearer",
-		BearerFormat = "JWT",
-		In = Microsoft.OpenApi.Models.ParameterLocation.Header,
-		Description = "Enter 'Bearer' [space] and then your valid token."
-	});
-
-	options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
-	{
-		{
-			new Microsoft.OpenApi.Models.OpenApiSecurityScheme
-			{
-				Reference = new Microsoft.OpenApi.Models.OpenApiReference
-				{
-					Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
-					Id = "Bearer"
-				}
-			},
-			Array.Empty<string>()
-		}
-	});
-});
-
 builder.Services.AddAuthentication(options =>
 {
 	options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -125,12 +47,59 @@ builder.Services.AddAuthentication(options =>
 	};
 });
 
+// ================= CORS =================
+builder.Services.AddCors(options =>
+{
+	options.AddPolicy("AllowAll", policy =>
+		policy.AllowAnyOrigin()
+			  .AllowAnyHeader()
+			  .AllowAnyMethod());
+});
 
+// ================= JSON LOOP FIX =================
+builder.Services.AddControllers()
+	.AddJsonOptions(options =>
+	{
+		options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+	});
 
+// ================= SWAGGER + JWT =================
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(options =>
+{
+	options.SwaggerDoc("v1", new OpenApiInfo
+	{
+		Title = "PCM API",
+		Version = "v1"
+	});
+
+	options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+	{
+		Name = "Authorization",
+		Type = SecuritySchemeType.Http,
+		Scheme = "bearer",
+		BearerFormat = "JWT",
+		In = ParameterLocation.Header,
+		Description = "Enter: Bearer {your JWT token}"
+	});
+
+	options.AddSecurityRequirement(new OpenApiSecurityRequirement
+	{
+		{
+			new OpenApiSecurityScheme
+			{
+				Reference = new OpenApiReference
+				{
+					Type = ReferenceType.SecurityScheme,
+					Id = "Bearer"
+				}
+			},
+			Array.Empty<string>()
+		}
+	});
+});
 
 var app = builder.Build();
-
-
 
 // ================= MIDDLEWARE =================
 app.UseCors("AllowAll");
@@ -142,18 +111,14 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthentication();
-app.UseAuthorization();
 
-
-app.UseAuthentication();
+app.UseAuthentication();   // ✅ chỉ 1 lần
 app.UseAuthorization();
 
 app.MapControllers();
 
 
-
-// ================= AUTO CREATE ADMIN =================
+// ================= AUTO CREATE ROLES + ADMIN =================
 using (var scope = app.Services.CreateScope())
 {
 	var userManager = scope.ServiceProvider.GetRequiredService<UserManager<AppUser>>();
@@ -181,7 +146,7 @@ using (var scope = app.Services.CreateScope())
 		await userManager.AddToRoleAsync(user, "Admin");
 	}
 }
-
-
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Add($"http://*:{port}");
 
 app.Run();

@@ -1,0 +1,6 @@
+﻿services:
+  - type: web
+    name: pcm-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
