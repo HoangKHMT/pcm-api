@@ -165,5 +165,6 @@ using (var scope = app.Services.CreateScope())
 		await userManager.AddToRoleAsync(user, "Admin");
 	}
 }
+app.MapGet("/", () => "PCM API is running 🚀");
 
 app.Run();
