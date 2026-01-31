@@ -11,7 +11,8 @@ namespace PCM.Api.Models
 		public string Name { get; set; } = string.Empty;
 
 		public ICollection<Transaction>? Transactions { get; set; }
-		public ICollection<Booking> Bookings { get; set; }
+		public List<Booking>? Bookings { get; set; } = new();
+
 
 	}
 }
