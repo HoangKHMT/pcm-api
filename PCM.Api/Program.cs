@@ -10,9 +10,13 @@ using PCM.Api.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.UseUrls("http://0.0.0.0:" + (Environment.GetEnvironmentVariable("PORT") ?? "8080"));
+
+
 // ================= DATABASE =================
 builder.Services.AddDbContext<AppDbContext>(options =>
 	options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 // ================= IDENTITY =================
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
@@ -25,6 +29,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 })
 .AddEntityFrameworkStores<AppDbContext>()
 .AddDefaultTokenProviders();
+
 
 // ================= JWT AUTH =================
 builder.Services.AddAuthentication(options =>
@@ -47,6 +52,7 @@ builder.Services.AddAuthentication(options =>
 	};
 });
 
+
 // ================= CORS =================
 builder.Services.AddCors(options =>
 {
@@ -56,12 +62,14 @@ builder.Services.AddCors(options =>
 			  .AllowAnyMethod());
 });
 
+
 // ================= JSON LOOP FIX =================
 builder.Services.AddControllers()
 	.AddJsonOptions(options =>
 	{
 		options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
 	});
+
 
 // ================= SWAGGER + JWT =================
 builder.Services.AddEndpointsApiExplorer();
@@ -101,6 +109,8 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
+
+// ================= AUTO MIGRATE DATABASE =================
 using (var scope = app.Services.CreateScope())
 {
 	var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
@@ -111,15 +121,17 @@ using (var scope = app.Services.CreateScope())
 // ================= MIDDLEWARE =================
 app.UseCors("AllowAll");
 
-if (app.Environment.IsDevelopment())
+// Bật Swagger trên cả Production (Render)
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-	app.UseSwagger();
-	app.UseSwaggerUI();
-}
+	c.SwaggerEndpoint("/swagger/v1/swagger.json", "PCM API V1");
+	c.RoutePrefix = "swagger";
+});
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();   // ✅ chỉ 1 lần
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
@@ -153,7 +165,5 @@ using (var scope = app.Services.CreateScope())
 		await userManager.AddToRoleAsync(user, "Admin");
 	}
 }
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-app.Urls.Add($"http://*:{port}");
 
 app.Run();
