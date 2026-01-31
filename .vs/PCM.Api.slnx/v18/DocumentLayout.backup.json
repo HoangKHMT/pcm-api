@@ -1,0 +1,426 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\API\\PCM.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130161739_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PCM.Api\\Migrations\\20260130161739_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\pcm.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\pcm.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\models\\court.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\models\\court.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130142757_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PCM.Api\\Migrations\\20260130142757_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130142641_UpdateDb1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PCM.Api\\Migrations\\20260130142641_UpdateDb1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\controllers\\courtscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\controllers\\courtscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\controllers\\participantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\controllers\\participantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|d:\\api\\pcm.api\\pcm.api\\controllers\\challengescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3BC4915-8D74-193A-98EF-570EBDD37ED8}|PCM.Api\\PCM.Api.csproj|solutionrelative:pcm.api\\controllers\\challengescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130015112_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PCM.Api\\Migrations\\20260130015112_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130014558_FirstCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PCM.Api\\Migrations\\20260130014558_FirstCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130014250_FirstCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PCM.Api\\Migrations\\20260130014250_FirstCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130011819_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PCM.Api\\Migrations\\20260130011819_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 302,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Controllers\\BookingsController.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "PCM.Api\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T19:01:01.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "PCM.Api\\appsettings.json",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\appsettings.json",
+              "RelativeToolTip": "PCM.Api\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-30T17:02:41.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Program.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Program.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Program.cs",
+              "RelativeToolTip": "PCM.Api\\Program.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:09:29.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Models\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Models\\RegisterDto.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Models\\RegisterDto.cs",
+              "RelativeToolTip": "PCM.Api\\Models\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T18:42:03.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PCM.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T17:01:50.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "PCM.Api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwEYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T09:48:20.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PCM.Api.csproj",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\PCM.Api.csproj",
+              "RelativeDocumentMoniker": "PCM.Api\\PCM.Api.csproj",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\PCM.Api.csproj",
+              "RelativeToolTip": "PCM.Api\\PCM.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-30T12:34:17.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewsArticle.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Models\\NewsArticle.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Models\\NewsArticle.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Models\\NewsArticle.cs",
+              "RelativeToolTip": "PCM.Api\\Models\\NewsArticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:15:17.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Models\\Participant.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Models\\Participant.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Models\\Participant.cs",
+              "RelativeToolTip": "PCM.Api\\Models\\Participant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:57:05.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Match.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Models\\Match.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Models\\Match.cs",
+              "RelativeToolTip": "PCM.Api\\Models\\Match.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T09:47:08.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Court.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Models\\Court.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Models\\Court.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Models\\Court.cs",
+              "RelativeToolTip": "PCM.Api\\Models\\Court.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:58:16.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Models\\AppUser.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Models\\AppUser.cs",
+              "RelativeToolTip": "PCM.Api\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T10:46:40.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CourtsController.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\CourtsController.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Controllers\\CourtsController.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\CourtsController.cs",
+              "RelativeToolTip": "PCM.Api\\Controllers\\CourtsController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T10:01:30.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Controllers\\TransactionsController.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "PCM.Api\\Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAkwNgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T03:19:03.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ParticipantsController.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\ParticipantsController.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Controllers\\ParticipantsController.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\ParticipantsController.cs",
+              "RelativeToolTip": "PCM.Api\\Controllers\\ParticipantsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T10:03:57.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MatchesController.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\MatchesController.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Controllers\\MatchesController.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\MatchesController.cs",
+              "RelativeToolTip": "PCM.Api\\Controllers\\MatchesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T10:03:17.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ChallengesController.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\ChallengesController.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Controllers\\ChallengesController.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Controllers\\ChallengesController.cs",
+              "RelativeToolTip": "PCM.Api\\Controllers\\ChallengesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T10:02:37.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20260130015112_InitDb.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130015112_InitDb.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Migrations\\20260130015112_InitDb.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130015112_InitDb.cs",
+              "RelativeToolTip": "PCM.Api\\Migrations\\20260130015112_InitDb.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:51:13.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20260130014558_FirstCreate.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130014558_FirstCreate.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Migrations\\20260130014558_FirstCreate.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130014558_FirstCreate.cs",
+              "RelativeToolTip": "PCM.Api\\Migrations\\20260130014558_FirstCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:45:58.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20260130014250_FirstCreate.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130014250_FirstCreate.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Migrations\\20260130014250_FirstCreate.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130014250_FirstCreate.cs",
+              "RelativeToolTip": "PCM.Api\\Migrations\\20260130014250_FirstCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:42:51.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260130011819_InitDb.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130011819_InitDb.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Migrations\\20260130011819_InitDb.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130011819_InitDb.cs",
+              "RelativeToolTip": "PCM.Api\\Migrations\\20260130011819_InitDb.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:18:20.363Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 98,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260130161739_InitDb.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130161739_InitDb.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Migrations\\20260130161739_InitDb.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130161739_InitDb.cs",
+              "RelativeToolTip": "PCM.Api\\Migrations\\20260130161739_InitDb.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T16:17:39.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Models\\Booking.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Models\\Booking.cs",
+              "RelativeToolTip": "PCM.Api\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:54:56.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260130142757_InitDb.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130142757_InitDb.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Migrations\\20260130142757_InitDb.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130142757_InitDb.cs",
+              "RelativeToolTip": "PCM.Api\\Migrations\\20260130142757_InitDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:27:58.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260130142641_UpdateDb1.cs",
+              "DocumentMoniker": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130142641_UpdateDb1.cs",
+              "RelativeDocumentMoniker": "PCM.Api\\Migrations\\20260130142641_UpdateDb1.cs",
+              "ToolTip": "D:\\API\\PCM.Api\\PCM.Api\\Migrations\\20260130142641_UpdateDb1.cs",
+              "RelativeToolTip": "PCM.Api\\Migrations\\20260130142641_UpdateDb1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:26:41.519Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
